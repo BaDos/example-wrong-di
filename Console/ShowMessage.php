@@ -16,7 +16,7 @@ class ShowMessage extends Command
     public function __construct($name = null)
     {
         $this->message = ObjectManager::getInstance()
-            ->get(GeneratedFactory::class)
+            ->get(MessageFactory::class)
             ->create();
         parent::__construct($name);
     }
