@@ -1,0 +1,24 @@
+{
+  "name": "myvendor/module-example-wrong-di",
+  "description": "N/A",
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "magento/framework": "*"
+  },
+  "version": "0.0.1",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MyVendor\\ExampleWrongDi\\": ""
+    }
+  }
+}
