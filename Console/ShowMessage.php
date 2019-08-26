@@ -25,7 +25,7 @@ class ShowMessage extends Command
     {
         $message = $this->message->getMessage();
         $output->writeln($message);
-        return 1;
+        return 0;
     }
 
     protected function configure()
