@@ -1,4 +1,5 @@
 <?php
 
 use \Magento\Framework\Component\ComponentRegistrar;
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'MyVendor_ExampleWrongDi', __DIR__);
+
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'BaDos_ExampleWrongDi', __DIR__);

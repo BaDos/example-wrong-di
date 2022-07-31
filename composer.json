@@ -1,6 +1,6 @@
 {
-  "name": "myvendor/module-example-wrong-di",
-  "description": "N/A",
+  "name": "bados/module-example-wrong-di",
+  "description": "The small example of wrong DI in Magento modules",
   "config": {
     "sort-packages": true
   },
@@ -18,7 +18,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "MyVendor\\ExampleWrongDi\\": ""
+      "BaDos\\ExampleWrongDi\\": ""
     }
   }
 }
