@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * @license MIT, see LICENSE.txt
+ */
 namespace BaDos\ExampleWrongDi\Console;
 
 use Symfony\Component\Console\Command\Command;
